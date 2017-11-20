@@ -1,0 +1,17 @@
+{
+  "name": "webpack-gulp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch": "gulp watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@shopify/themekit": "^0.6.12",
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "path": "^0.12.7"
+  }
+}

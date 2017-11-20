@@ -1,0 +1,110 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:100,100i,300,300i,400,400i,500,500i,700,700i');
+
+@font-face {
+	font-family: 'Hoboken Sans';
+	src: url('{{ "hoboken-sans.ttf" | asset_url }}');
+}
+
+$hoboken-sans: 'Hoboken Sans', sans-serif;
+$roboto: 'Roboto', sans-serif;
+$roboto-mono: 'Roboto Mono', sans-serif;
+
+html {
+	font-size: $base-font-size;
+	color: rgba($wip-black, 0.9);
+}
+
+h1, .h1 {
+	font-family: $hoboken-sans;
+	font-size: 3rem;
+	line-height: 3rem;
+	text-transform: uppercase;
+}
+
+h2, .h2 {
+	font-family: $hoboken-sans;
+	font-size: 1.875rem;
+	line-height: 2.25rem;
+	text-transform: uppercase;
+}
+
+h3, .h3 {
+	font-family: $roboto-mono;
+	font-size: 1.125rem;
+	line-height: 1.5rem;
+	font-weight: 500;
+}
+
+h4, .subheader {
+	font-family: $roboto-mono;
+	font-size: 0.875rem;
+	line-height: 1.5rem;
+	letter-spacing: 0.5px;
+	font-weight: 500;
+}
+
+p, .paragraph {
+	font-family: $roboto;
+	font-size: 0.875rem;
+	line-height: 1.5rem;
+	letter-spacing: 1.5px;
+
+	&.paragraph--large {
+		font-family: $hoboken-sans;
+		font-size: 1.875rem;
+		line-height: 3rem;
+	}
+}
+
+a, .text-link {
+	font-family: $roboto-mono;
+	font-size: 0.875rem;
+	line-height: 1.875rem;
+	letter-spacing: 0.5px;
+	font-style: italic;
+	color: inherit;
+	transition: color 0.5s;
+
+	&:hover {
+		color: $wip-orange;
+	}
+}
+
+.product-heading {
+	font-family: $roboto-mono;
+	font-size: 0.875rem;
+	line-height: 1.125rem;
+	letter-spacing: 1.5px;
+	font-weight: 500;
+}
+
+.product-paragraph {
+	@extend .product-heading;
+	font-weight: 400;
+}
+
+@media (min-width: $sm-break) {
+	h1, .h1 {
+		font-size: calc(3rem + 1vw);
+		line-height: calc(3rem + 1vw);
+	}
+
+	h2, .h2 {
+		font-size: calc(1.875rem + 1vw);
+		line-height: calc(2.25rem + 1vw);
+	}
+
+	h3, .h3 {
+		font-size: calc(1.125rem + 0.5vw);
+		line-height: calc(1.5rem + 0.5vw);
+	}
+}
+
+@media (min-width: $md-break) {
+	h1, .h1 {
+		font-size: calc(3rem + 2vw);
+		line-height: calc(3rem + 2vw);
+	}
+}

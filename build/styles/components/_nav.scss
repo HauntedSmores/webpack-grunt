@@ -1,0 +1,43 @@
+// Navigation
+
+nav {
+    position: relative;
+    height: 60px;
+    background-color: $wip-black;
+}
+
+.main-menu {
+    display: flex;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.main-menu__nav-link {
+    display: block;
+    text-decoration: none;
+    color: white;
+    line-height: 60px;
+    font-style: normal;
+    padding: 0 24px;
+    transition: all 0.5s;
+
+    &:hover {
+        background-color: $true-black;
+        color: white;
+    }
+
+    &.active {
+        background-color: $true-black;
+    }
+}
+
+.nav-logo {
+    display: block;
+    width: auto;
+    height: 100%;
+    padding: 12px 0;
+    box-sizing: border-box;
+    @include horizontal-center(absolute);
+}

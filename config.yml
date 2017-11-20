@@ -1,0 +1,20 @@
+development:
+  password: 946ca5b298cfdff2e8b1462a8757ab08
+  theme_id: "278560787"
+  store: carharttwip.myshopify.com
+  ignore_files:
+    - settings_data.json
+    - src
+    - node_modules
+    - package.json
+    - package-lock.json
+production:
+  password: 946ca5b298cfdff2e8b1462a8757ab08
+  theme_id: "195862227"
+  store: carharttwip.myshopify.com
+  ignore_files:
+    - settings_data.json
+    - src
+    - node_modules
+    - package.json
+    - package-lock.json

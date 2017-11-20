@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>radio_black</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M12.0526316,4 C7.60578947,4 4,7.60578947 4,12.0526316 L4,18.3157895 C4,19.8010526 5.19894737,21 6.68421053,21 L9.36842105,21 L9.36842105,13.8421053 L5.78947368,13.8421053 L5.78947368,12.0526316 C5.78947368,8.59 8.59,5.78947368 12.0526316,5.78947368 C15.5152632,5.78947368 18.3157895,8.59 18.3157895,12.0526316 L18.3157895,13.8421053 L14.7368421,13.8421053 L14.7368421,21 L17.4210526,21 C18.9063158,21 20.1052632,19.8010526 20.1052632,18.3157895 L20.1052632,12.0526316 C20.1052632,7.60578947 16.4994737,4 12.0526316,4 L12.0526316,4 Z" id="path-1"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="radio_black">
+            <polygon id="Shape" points="0 0 24 0 24 24 0 24"></polygon>
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="Mask" fill="#333537" xlink:href="#path-1"></use>
+        </g>
+    </g>
+</svg>
